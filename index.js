@@ -1,6 +1,6 @@
 const express = require("express");
 
-const API_URL = "api/v1/";
+const API_URL = "/api/v1/";
 const app = express();
 
 app.get(API_URL + "greetings", (req, res) => {
